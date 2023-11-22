@@ -1,0 +1,36 @@
+:host {
+  form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .mat-column-watched {
+    width: 50px;
+  }
+
+  .mat-column-actions {
+    width: 50px;
+  }
+
+  mat-icon {
+    &:hover {
+      color: red;
+    }
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .selected > td{
+    background: black;
+    color: white;
+  }
+}
+
+
